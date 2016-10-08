@@ -1,7 +1,7 @@
 <?php
 		$opcion = filter_var($_POST['opcion'],FILTER_SANITIZE_STRING);
   	require_once("class_usuario.php");
-
+	//esto es una modificacion
 		include("databaseA.php");
   	session_start();
 
